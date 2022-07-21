@@ -10,18 +10,18 @@ Neither contributor incur any responsibility for any using it.
 
 ## Content
 
-1. [Description](#Description)
-   1. [Functionallity](#Functionallity)
-   2. [Architecture](#Architecture)
-2. [Suggestions and donations](#Suggestions and donations)
-3. [Style guide](#Style guide)
-4. [Deployment for development](#Deployment for development)
-   1. [Windows host and Ubuntu Server guest](#Windows host and Ubuntu Server guest)
-      1. [Set up the virtual machine](#Set up the virtual machine)
-      2. [Config Window](#Config Window)
-      3. [Set shared folders](#Set shared folders)
-      4. [Config Ubuntu Server](#Config Ubuntu Server)
-      5. [Layers](#Layers)
+1. [Description](#description)
+   1. [Functionallity](#functionallity)
+   2. [Architecture](#architecture)
+2. [Suggestions and donations](#suggestions-and-donations)
+3. [Style guide](#style-guide)
+4. [Deployment for development](#deployment-for-development)
+   1. [Windows host and Ubuntu Server guest](#windows-host-and-ubuntu-server-guest)
+      1. [Set up the virtual machine](#set-up-the-virtual-machine)
+      2. [Config Window](#config-window)
+      3. [Set shared folders](#set-shared-folders)
+      4. [Config Ubuntu Server](#config-ubuntu-server)
+      5. [Layers](#layers)
 
 ## Description
 
