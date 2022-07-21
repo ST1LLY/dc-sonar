@@ -64,6 +64,12 @@ Bitcoin Cash (BCH): qq5729vd50k3f57rwpnfh8kvhzn0lxurxvfsv4pmq8
 
 
 
+## Style guide
+
+See the information in [STYLE_GUIDE.md](https://github.com/ST1LLY/dc-sonar/blob/main/STYLE_GUIDE.md)
+
+
+
 ## Deployment for development
 
 ### Windows host and Ubuntu Server guest
