@@ -1,5 +1,13 @@
 # Style guide
 
+## Content
+
+1. [Python](#python)
+2. [Angular](#angular)
+3. [Commits style](#commits-style)
+4. [IDE setings](#ide-settings)
+   1. [PyCharm settings](#pycharm-settings)
+
 ## Python
 
 For comments and docstrings, stick to the [Google style guide](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings).
