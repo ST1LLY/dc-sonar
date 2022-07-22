@@ -259,7 +259,7 @@ GRANT ALL ON ALL FUNCTIONS IN SCHEMA public TO dc_sonar_workers_layer;
 Grant CRUD permissions for the dc_sonar_user_layer account on the web_app_db database:
 
 ```plsql
-\c back_workers_db
+\c web_app_db
 GRANT CONNECT ON DATABASE web_app_db to dc_sonar_user_layer;
 GRANT USAGE ON SCHEMA public to dc_sonar_user_layer;
 GRANT ALL ON ALL TABLES IN SCHEMA public TO dc_sonar_user_layer;
