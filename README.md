@@ -145,7 +145,7 @@ It will ask for confirmation of adding the ppa:deadsnakes/ppa repository. Press 
 Install dc-sonar itself:
 
 ```shell
-sudo dpkg -i dc_sonar_2022.7.27-1_amd64.deb
+sudo dpkg -i dc_sonar_NNNN.N.NN-N_amd64.deb
 ```
 
 It will ask for information for creating a Django admin user. Provide username, mail and password.
