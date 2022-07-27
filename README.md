@@ -30,10 +30,24 @@ Neither contributor incur any responsibility for any using it.
 The DC Sonar Community provides functionality for analyzing AD domains for security risks related to accounts:
 
 - Register analyzing AD domain in the app
+
+  ![register_ad](https://github.com/ST1LLY/dc-sonar/blob/f7b2d6fc7b9f7b9ff83485cb8c969cfca2a72b88/py_charms_settings_scrs/register_ad.png?raw=true)
+
 - See the statuses of domain analyzing processes
+
+  ![domains_analyze_statuses](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/domains_analyze_statuses.png?raw=true)
+
 - Dump and brute NTLM hashes from set AD domains to list accounts with weak and vulnerable passwords
+
+  ![register_ad](https://github.com/ST1LLY/dc-sonar/blob/f7b2d6fc7b9f7b9ff83485cb8c969cfca2a72b88/py_charms_settings_scrs/register_ad.png?raw=true)
+
 - Analyze AD domain accounts to list ones with no expired passwords
+
+  ![no_expired_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/no_expired_passwords.png?raw=true)
+
 - Analyze AD domain accounts by their NTLM password hashes to determine accounts and domains where passwords repeat
+
+  ![reused_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/reused_passwords.png?raw=true)
 
 ### Architecture
 
@@ -78,6 +92,68 @@ Ethereum (ETH): 0x4186c3d5b7B58C761Dd118AffCA1Cf24Ba8A3E89
 Bitcoin Cash (BCH): qq5729vd50k3f57rwpnfh8kvhzn0lxurxvfsv4pmq8
 
 
+
+## Installation
+
+It is assumed that you have a clean [Ubuntu Server 22.04](https://ubuntu.com/download/server) and account with the username "user".
+
+The app will install to `/home/user/dc-sonar`.
+
+The next releases maybe will have a more flexible installation.
+
+Download dc_sonar_NNNN.N.NN-N_amd64.tar.gz from the [last distributive](https://github.com/ST1LLY/dc-sonar/releases) to the server.
+
+Create a folder for extracting files:
+
+```shell
+mkdir dc_sonar_NNNN.N.NN-N_amd64
+```
+
+Extract the downloaded archive:
+
+```shell
+tar -xvf dc_sonar_NNNN.N.NN-N_amd64.tar.gz -C dc_sonar_NNNN.N.NN-N_amd64
+```
+
+Go to the folder with the extracted files:
+
+```shell
+cd dc_sonar_NNNN.N.NN-N_amd64/
+```
+
+Install PostgreSQL:
+
+```shell
+sudo bash install_postgresql.sh
+```
+
+Install RabbitMQ:
+
+```shell
+sudo bash install_rabbitmq.sh
+```
+
+Install dependencies:
+
+```shell
+sudo bash install_dependencies.sh
+```
+
+It will ask for confirmation of adding the ppa:deadsnakes/ppa repository. Press `Enter`.
+
+Install dc-sonar itself:
+
+```shell
+sudo dpkg -i dc_sonar_2022.7.27-1_amd64.deb
+```
+
+It will ask for information for creating a Django admin user. Provide username, mail and password.
+
+It will ask for information for creating a self-signed SSL certificate twice. Provide required information.
+
+Open: https://localhost
+
+Enter Django admin user credentials set during the installation process before.
 
 ## Style guide
 
@@ -441,3 +517,6 @@ Make run [steps](https://github.com/ST1LLY/dc-sonar-frontend#run-development) fo
 Open https://localhost:8000/admin/ in a browser on the Windows host and agree with the self-signed certificate.
 
 Open https://localhost:4200/ in the browser on the Windows host and login as created Django user.
+
+
+
