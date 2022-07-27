@@ -39,7 +39,7 @@ The DC Sonar Community provides functionality for analyzing AD domains for secur
 
 - Dump and brute NTLM hashes from set AD domains to list accounts with weak and vulnerable passwords
 
-  ![register_ad](https://github.com/ST1LLY/dc-sonar/blob/f7b2d6fc7b9f7b9ff83485cb8c969cfca2a72b88/py_charms_settings_scrs/register_ad.png?raw=true)
+  ![weak_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/weak_passwords.png?raw=true)
 
 - Analyze AD domain accounts to list ones with no expired passwords
 
