@@ -96,6 +96,12 @@ Bitcoin Cash (BCH): qq5729vd50k3f57rwpnfh8kvhzn0lxurxvfsv4pmq8
 
 ## Installation
 
+### Docker
+
+In progres ...
+
+### Manually using dpkg
+
 It is assumed that you have a clean [Ubuntu Server 22.04](https://ubuntu.com/download/server) and account with the username "user".
 
 The app will install to `/home/user/dc-sonar`.
@@ -164,7 +170,11 @@ See the information in [STYLE_GUIDE.md](https://github.com/ST1LLY/dc-sonar/blob/
 
 ## Deployment for development
 
-### Windows host and Ubuntu Server guest
+### Docker
+
+In progress ...
+
+### Manually using Windows host and Ubuntu Server guest
 
 In this case, we will set up the environment for editing code on the Windows host while running Python code on the Ubuntu guest.
 
