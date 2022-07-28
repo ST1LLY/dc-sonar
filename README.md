@@ -101,7 +101,7 @@ Bitcoin Cash (BCH): qq5729vd50k3f57rwpnfh8kvhzn0lxurxvfsv4pmq8
 
 ### Docker
 
-In progres ...
+In progress ...
 
 ### Manually using dpkg
 
