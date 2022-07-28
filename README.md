@@ -42,7 +42,7 @@ The DC Sonar Community provides functionality for analyzing AD domains for secur
 
   ![weak_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/weak_passwords.png?raw=true)
 
-- Analyze AD domain accounts to list ones with no expired passwords
+- Analyze AD domain accounts to list ones with never expire passwords
 
   ![no_expired_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/no_expired_passwords.png?raw=true)
 
