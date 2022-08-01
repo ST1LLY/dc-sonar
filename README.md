@@ -8,6 +8,10 @@ Avoid using it on the production Active Directory (AD) domain.
 
 Neither contributor incur any responsibility for any using it.
 
+## Social media
+
+Check out our Red Team community [Telegram channel](https://t.me/RedTeambro)
+
 ## Content
 
 1. [Description](#description)
