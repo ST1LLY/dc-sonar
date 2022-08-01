@@ -15,8 +15,8 @@ Check out our Red Team community [Telegram channel](https://t.me/RedTeambro)
 ## Content
 
 1. [Description](#description)
-   1. [Functionallity](#functionallity)
-   2. [Architecture](#architecture)
+   1. [Architecture](#architecture)
+   2. [Functionallity](#functionallity)
 2. [Suggestions and donations](#suggestions-and-donations)
 3. [Installation](#installation)
    1. [Docker](#docker)
@@ -32,30 +32,6 @@ Check out our Red Team community [Telegram channel](https://t.me/RedTeambro)
       5. [Layers](#layers)
 
 ## Description
-
-### Functionallity
-
-The DC Sonar Community provides functionality for analyzing AD domains for security risks related to accounts:
-
-- Register analyzing AD domain in the app
-
-  ![register_ad](https://github.com/ST1LLY/dc-sonar/blob/f7b2d6fc7b9f7b9ff83485cb8c969cfca2a72b88/py_charms_settings_scrs/register_ad.png?raw=true)
-
-- See the statuses of domain analyzing processes
-
-  ![domains_analyze_statuses](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/domains_analyze_statuses.png?raw=true)
-
-- Dump and brute NTLM hashes from set AD domains to list accounts with weak and vulnerable passwords
-
-  ![weak_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/weak_passwords.png?raw=true)
-
-- Analyze AD domain accounts to list ones with never expire passwords
-
-  ![no_expired_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/no_expired_passwords.png?raw=true)
-
-- Analyze AD domain accounts by their NTLM password hashes to determine accounts and domains where passwords repeat
-
-  ![reused_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/reused_passwords.png?raw=true)
 
 ### Architecture
 
@@ -86,6 +62,30 @@ The app consists of:
   - [FastAPI](https://fastapi.tiangolo.com/)
   - [hashcat](https://github.com/hashcat/hashcat)
   - [impacket](https://github.com/SecureAuthCorp/impacket)
+
+### Functionallity
+
+The DC Sonar Community provides functionality for analyzing AD domains for security risks related to accounts:
+
+- Register analyzing AD domain in the app
+
+  ![register_ad](https://github.com/ST1LLY/dc-sonar/blob/f7b2d6fc7b9f7b9ff83485cb8c969cfca2a72b88/py_charms_settings_scrs/register_ad.png?raw=true)
+
+- See the statuses of domain analyzing processes
+
+  ![domains_analyze_statuses](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/domains_analyze_statuses.png?raw=true)
+
+- Dump and brute NTLM hashes from set AD domains to list accounts with weak and vulnerable passwords
+
+  ![weak_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/weak_passwords.png?raw=true)
+
+- Analyze AD domain accounts to list ones with never expire passwords
+
+  ![no_expired_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/no_expired_passwords.png?raw=true)
+
+- Analyze AD domain accounts by their NTLM password hashes to determine accounts and domains where passwords repeat
+
+  ![reused_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/reused_passwords.png?raw=true)
 
 
 
