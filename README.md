@@ -1,5 +1,14 @@
 # DC Sonar Community
 
+## Repositories
+
+The project consists of repositories:
+
+- [dc-sonar-frontend](https://github.com/ST1LLY/dc-sonar-frontend)
+- [dc-sonar-user-layer](https://github.com/ST1LLY/dc-sonar-user-layer) 
+- [dc-sonar-workers-layer](https://github.com/ST1LLY/dc-sonar-workers-layer) 
+- [ntlm-scrutinizer](https://github.com/ST1LLY/ntlm-scrutinizer)
+
 ## Disclaimer
 
 It's only for education purposes.
