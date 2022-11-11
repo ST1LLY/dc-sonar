@@ -26,12 +26,11 @@ Check out our Red Team community [Telegram channel](https://t.me/RedTeambro)
 1. [Description](#description)
    1. [Architecture](#architecture)
    2. [Functionallity](#functionallity)
-2. [Suggestions and donations](#suggestions-and-donations)
-3. [Installation](#installation)
+2. [Installation](#installation)
    1. [Docker](#docker)
    2. [Manually using dpkg](#manually-using-dpkg)
-4. [Style guide](#style-guide)
-5. [Deployment for development](#deployment-for-development)
+3. [Style guide](#style-guide)
+4. [Deployment for development](#deployment-for-development)
    1. [Docker](#docker-1)
    2. [Manually using Windows host and Ubuntu Server guest](#manually-using-windows-host-and-ubuntu-server-guest)
       1. [Set up the virtual machine](#set-up-the-virtual-machine)
@@ -95,20 +94,6 @@ The DC Sonar Community provides functionality for analyzing AD domains for secur
 - Analyze AD domain accounts by their NTLM password hashes to determine accounts and domains where passwords repeat
 
   ![reused_passwords](https://github.com/ST1LLY/dc-sonar/blob/main/py_charms_settings_scrs/reused_passwords.png?raw=true)
-
-
-
-## Suggestions and donations
-
-Feel free to suggest functionality and provide resources to implement it.
-
-Bitcoin (BTC): bc1qlymngj29vvknxjl73u3w3u0s84qexpvgac4jhr
-
-Ethereum (ETH): 0x4186c3d5b7B58C761Dd118AffCA1Cf24Ba8A3E89
-
-Bitcoin Cash (BCH): qq5729vd50k3f57rwpnfh8kvhzn0lxurxvfsv4pmq8
-
-
 
 ## Installation
 
